@@ -7,4 +7,4 @@ test("basic", () => {
 test("basic again", () => {
     expect(index_1.sum(1, 2)).toBe(3);
 });
-//# sourceMappingURL=t8.test.js.map
+//# sourceMappingURL=index.test.js.map
