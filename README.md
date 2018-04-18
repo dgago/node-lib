@@ -1,27 +1,27 @@
-# t8 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# node-lib [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > 
 
 ## Installation
 
 ```sh
-$ npm install --save t8
+$ npm install --save https://github.com/dgago/node-lib.git
 ```
 
 ## Usage
 
-```js
-const t8 = require('t8');
+```ts
+import { sum } from "node-lib";
 
-t8('Rainbow');
+const res = sum(1, 2);
 ```
 ## License
 
 MIT © [Diego Gago]()
 
 
-[npm-image]: https://badge.fury.io/js/t8.svg
-[npm-url]: https://npmjs.org/package/t8
-[travis-image]: https://travis-ci.org/dgago/t8.svg?branch=master
-[travis-url]: https://travis-ci.org/dgago/t8
-[daviddm-image]: https://david-dm.org/dgago/t8.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/dgago/t8
+[npm-image]: https://badge.fury.io/js/node-lib.svg
+[npm-url]: https://npmjs.org/package/node-lib
+[travis-image]: https://travis-ci.org/dgago/node-lib.svg?branch=master
+[travis-url]: https://travis-ci.org/dgago/node-lib
+[daviddm-image]: https://david-dm.org/dgago/node-lib.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/dgago/node-lib
