@@ -7,4 +7,8 @@ test("basic", () => {
 test("basic again", () => {
     expect(index_1.sum(1, 2)).toBe(3);
 });
+test("config", () => {
+    const cfg = index_1.readConfig();
+    expect(cfg.test.PORT).toBe(3000);
+});
 //# sourceMappingURL=index.test.js.map
