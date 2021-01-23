@@ -12,8 +12,9 @@
   "keywords": [],
   "scripts": {
     "compile": "tsc",
-    "declarations": "gulp declarations",
-    "build": "run-s compile declarations",
+    "concat-declarations": "gulp concat-declarations",
+    "clean-declarations": "gulp clean-declarations",
+    "build": "run-s compile concat-declarations clean-declarations",
     "start": "tsc-watch --onSuccess \"npm t\"",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "test": "jest"
